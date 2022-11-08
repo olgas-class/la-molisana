@@ -1,0 +1,12 @@
+// Centratura orizzontale se direction è "horizontal", verticale se "vertical" e entrambi se "both"
+@mixin flex-center($direction: "both") {
+  display: flex;
+  @if $direction == "horizontal" {
+    justify-content: center;
+  } @else if $direction == "vertical" {
+    align-items: center;
+  } @else {
+    justify-content: center;
+    align-items: center;
+  }
+}
