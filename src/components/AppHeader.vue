@@ -63,6 +63,7 @@ export default {
                 margin: 0px 1rem;
 
                 a {
+                    display: inline-block;
                     padding: .5rem 1rem;
                     background-color: lighten($primary-color, 60%);
 
